@@ -1,3 +1,22 @@
+/********
+Author : A'Nyla Weathers
+ Program: hw2, q2
+ Date Created: Feburary 19, 2025
+ Date Last Modified : Feburary 20, 2025
+ ***********
+ *Problem: Create a checkbook that displays checks in chronological order starting from most recent,
+ * using overloaded << for a check struct
+ * testing with function that writes checks
+ */
+
+
+
+
+
+
+
+
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -111,9 +130,6 @@ void CheckBook::displayChecks(){
 
             cout <<"***************"<<endl;
             cout << chkPter[i]<<endl;
-            //cout<< "Check #"<<chkPter[i].CheckNum<<endl;
-           // cout<< "Memo:"<<chkPter[i].CheckMemo<<endl;
-            //cout<< "Amount: $"<<chkPter[i].CheckAmt<<endl;
             cout <<"***************"<<endl;
 
     }
